@@ -7,4 +7,4 @@ total_pound = int(ounces) // 16
 
 total_ounce = ounces % 16
 
-print(total_kg, "kilograms is", total_pound, "pounds and", total_ounce, "ounces")
+print(total_kg, "kilograms is", total_pound, "pounds and", total_ounce, "ounces.")
