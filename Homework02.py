@@ -1,4 +1,4 @@
-str_kg = input("Please enter the amount of kilograms you wish to convert: ")
+str_kg = input("Please enter the number of kilograms you wish to convert: ")
 total_kg = float(str_kg)
 
 ounces = total_kg * 35.2739619495804106 
