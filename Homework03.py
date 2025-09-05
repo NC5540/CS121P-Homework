@@ -1,14 +1,14 @@
 import turtle
 
 angle = input("Enter int angle: ")
-int_range = input("Enter int range: ")
+range_num = input("Enter int range: ")
 
 wn = turtle.Screen()
-alex = turtle.Turtle()  
+spikemeyer = turtle.Turtle()  
 
-for i in range(int(int_range)):
-    alex.forward(i)
-    alex.left(int(angle))
+for i in range(int(range_num)):
+    spikemeyer.forward(i)
+    spikemeyer.left(int(angle))
      
 print("Click turtle screen to exit...")
 
